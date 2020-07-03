@@ -1,0 +1,18 @@
+{
+    "authors": [
+        {
+            "name": "Gabriel Espinhara da Silva",
+            "email": "EspinharaGSilva@gmail.com"
+        }
+    ],
+    "require": {
+        "smarty/smarty": "~3.1",
+        "phpmailer/phpmailer": "~6.1"
+    },
+    "config": {
+        "vendor-dir": "lib/"
+    },
+    "autoload": {
+        "classmap": ["model/"]
+    }
+}
