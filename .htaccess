@@ -3,8 +3,8 @@ RewriteEngine on
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 
-//Parte principal do codigo,
-//aqui verificamos se realmente existe o endereço atribuido na url
+#Parte principal do codigo,
+#aqui verificamos se realmente existe o endereço atribuido na url
 
 RewriteRule ^(.*) index.php?pag=$1 [L,QSA]
 </IfModule>
